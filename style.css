@@ -65,7 +65,7 @@ body{
 
 #under-nav-bar{ 
     margin: auto;
-    position: relative;top: 30px;
+    position: relative;top: 30px; left: 120px;
 
 }
 
@@ -114,5 +114,5 @@ html{
 *{ outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); } 
 */
 
-*{ outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); } 
+
 
