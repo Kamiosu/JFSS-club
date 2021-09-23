@@ -27,7 +27,7 @@ body{
 /* _--------------- Navigation bar item -----------------_*/
 
 #nav_bar{ 
-    position: relative; bottom: 110px; left: 500px; 
+    position: relative; bottom: 130px; left: 500px; 
     width: fit-content;
 }
 
@@ -64,17 +64,40 @@ body{
 }
 
 #under-nav-bar{ 
+    padding: 15px;
     margin: auto;
     position: relative;top: 30px; left: 120px;
+    border-radius: 30px;
+    color: lightgrey;
+    display: inline;
+    background-color: #1e2b58;
+    width: fit-content;
 
 }
 
 #under-nav-bar-link{ 
     text-align: center;
     text-decoration: none;
-    color: rgb(253, 102, 42);
-    
+    color: #fff;
+    /*text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(71,77,150),
+      0 0 82px rgb(71,77,150),
+      0 0 92px rgb(71,77,150),
+      0 0 102px rgb(71,77,150),
+      0 0 121px rgb(71,77,150);
+    */
+} 
+
+#under-nav-bar:hover{ 
+    opacity: 80%; /* NEEDS WORK */ 
 }
+
+
+    
+
 
 
 /* _----------------    ELEMENT SECTION 2 ----------------_*/
@@ -92,6 +115,7 @@ body{
     background-color: red;
     opacity: 50%;
     margin: auto;
+    border-radius: 20px;
 }
 
 
