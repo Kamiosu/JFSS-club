@@ -21,7 +21,7 @@ header{
 
 /* _--------------  Background image for website --> Folder /assets/------------------_*/
 body{ 
-    background-image: url('/assets/cityskyline.png'); 
+    background-image: url('cityskyline.png'); 
 
 }
 /* _--------------- Navigation bar item -----------------_*/
@@ -57,7 +57,7 @@ body{
 /* _----------------    UNDER NAV BAR ----------------_*/
 
 
-.element-section1{ 
+.element-team-section1{ 
     height: 10%;
     width: 100%;
     
@@ -101,7 +101,7 @@ body{
 
 
 /* _----------------    ELEMENT SECTION 2 ----------------_*/
-.element-section2{ 
+.element-team-section2{ 
     height: 40%;
     width: 100%;
     
@@ -109,10 +109,10 @@ body{
 
 }
 
-.element-div1{ 
+.element-team-div1{ 
     height: 100%;
     width: 80%;
-    background-color: red;
+    background-color: rgb(0, 255, 128);
     opacity: 50%;
     margin: auto;
     border-radius: 20px;
